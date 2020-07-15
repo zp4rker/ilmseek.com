@@ -3,10 +3,15 @@ export const quotes = [
     content: "Are those who know equal to those who do not know?",
     source: "Quran 39:9",
     reference: "https://quran.com/39/9"
+  },
+  {
+    content: "Is inquiry not the cure of ignorance?",
+    source: "Sunan Ibn Mājah 1:337",
+    reference: "http://sunnah.com/abudawud/1/337"
   }
 ]
 
 export const quote = quotes[Math.floor(Math.random() * quotes.length)]
 
 <blockquote><p>{quote.content}</p></blockquote>
-<a href={quote.reference}><p>{quote.source}</p></a>
+<a target="_blank" href={quote.reference}><p>{quote.source}</p></a>
