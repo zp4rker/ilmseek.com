@@ -50,7 +50,7 @@ module.exports = {
         description: `Trying to share the limited knowledge I have and find.`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#6B46C1`,
+        theme_color: `#f1c40f`,
         display: `standalone`,
         icons: [
           {
