@@ -76,5 +76,6 @@ module.exports = {
         openAnalyzer: false,
       },
     },
+    `gatsby-plugin-page-transitions`,
   ].filter(Boolean),
 }
