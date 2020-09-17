@@ -8,6 +8,9 @@ module.exports = {
   siteMetadata: {
     siteTitle: `Ilmseek`,
     siteTitleAlt: `Ilmseek - Seeking Knowledge`,
+    description: `Avoiding ignorance in a time where it prevails.`,
+    url: `https://ilmseek.com`,
+    twitterUsername: `@zp4rker`
   },
   plugins: [
     {
